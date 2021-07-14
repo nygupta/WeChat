@@ -1,15 +1,25 @@
-# Unichat Application
+# WeChat :--
 
-![Chat Application](https://i.ibb.co/GJwyy9m/Bv9-Js3-QLOLY-HD.jpg)
+A Chat Application build on react with chat engine and Firebase, has google sign in functionality, and is hosted on netlify.
 
-## Introduction
+## Develop locally 
 
-This is a code repository for the corresponding video tutorial. In this video, we create a full Realtime Chat Application with Social Auth and dedicated chat APIs/sockets.
+* Clone the Repository 
+    ```sh
+        $ git clone https://github.com/nygupta/WeChat
+    ```
+* Install the dependencies
+     ```sh
+        $ npm install
+    ```
+* Run the server - this will spawn a development server with port `3000`.
+    ```sh
+    $ npm run start
+    ```
 
-You will learn how to build a react chat app using [https://chatengine.io](https://chatengine.io)
+## Deployment 
 
-Firebase and Chat Engine are greats tools to setup apps fast and easily - great to learn with!
+* Deployed on [Netlify](https://www.netlify.com/).
 
-### Bonus - E-mail notifications
-
-If you want to upgrade this chat application even further than what is shown in the video, you can add e-mail notifications. More info on https://chatengine.io/docs/email_notifications.
+#### My Deployed Project
+* The App is deployed to [WeChat](https://wechat-blacklion.netlify.app).
